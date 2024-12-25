@@ -1,0 +1,25 @@
+.text{
+  color: aliceblue;
+  display: inline;
+}
+.custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.text-primary {
+  font-weight: 600;
+}
+
+.container h2 {
+  font-family: 'Arial', sans-serif;
+  color: #374758;
+}
+
+button {
+  font-weight: bold;
+}
